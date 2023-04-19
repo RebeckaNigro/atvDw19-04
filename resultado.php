@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado</title>
 </head>
-<body> <style=backg;></style>
-    
+<body style="background-color: <?php echo $_GET['cor'] ?>;">
+
+ <h1><?php echo $_GET['frase'] ?> </h1>
+    <img src="<?php echo $_GET['img']?>" alt="imagem">
 </body>
 </html>
