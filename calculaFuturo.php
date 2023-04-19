@@ -6,8 +6,12 @@ $nome = $_GET['nome'];
 $cor = $_GET['cor'];
 
 
-if( strcasecmp($nome,'alexandre') == 0) {
-    header("location: resultado.php?frase=Muita Sorte!&cor=$cor");
-
+if( strcasecmp ($nome,'vitor') == 0 ){
+    header("Location: resultado.php?frase=Muita Sorte!&cor=$cor");
 }
+
+else {
+    header("Location: resultado.php?frase=Trabalhe muito hoje!&cor=#008800");
+}
+?>
 ?>
